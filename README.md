@@ -5,11 +5,12 @@
 
 .3 Step - and replace the code with this snipet 
 
-```QBCore.Functions.Notify = function(Message, Type, Time, Title)
+```
+QBCore.Functions.Notify = function(Message, Type, Time, Title)
    local Title = Title ~= nil and Title or "Notification"
    local Message = Message ~= nil and Message or "Message"
    local Time = Time ~= nil and Time or 2000
    local Type = Type ~= nil and Type or "info"
    if ttype == 'primary' then ttype = 'info' end
    exports['okokNotify']:Alert(Title, Message, Time, Type)
-end```
+end
