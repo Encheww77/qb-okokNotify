@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Acrom";
+    src: url("Acrom-Bold.ttf") format("truetype");
+  }
+
+body {
+    margin-top: 100px;
+    font-family: 'Acrom', sans-serif;
+    overflow: hidden;
+}
+
+.toast {
+    width: 100px;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: right;
+}
+
+.main {
+    margin: 12px 16px 12px 56px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 24px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+/* Success Notification*/
+
+.success-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: #ffffff;
+}
+
+.success {
+    background-color: rgba(32, 177, 27, 0.6);
+    box-shadow: 0px 0px 15px #000;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Info Notification*/
+
+.info-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #ffffff;
+}
+
+.info {
+    background-color: rgb(15 123 196 / 60%);
+    box-shadow: 0px 0px 15px #000;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Warning Notification */
+
+.warning-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #ffffff;
+}
+
+.warning {
+    background-color: rgba(233, 219, 30, 0.6);
+    box-shadow: 0px 0px 15px #000;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Error Notification */
+
+
+.error-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #ffffff;
+}
+
+.error {
+    background-color: rgba(197, 24, 24, 0.6);
+    box-shadow: 0px 0px 15px #000;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Long Text Notification */
+
+.neutral-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11c";
+    color: #ffffff;
+}
+
+.neutral {
+    background-color: rgba(110, 110, 110, 0.6);
+    box-shadow: 0px 0px 15px #000;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
