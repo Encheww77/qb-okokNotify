@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/834d2b68-5ef2-4ad1-b40e-e9c401f281f2)
+![image](https://github.com/user-attachments/assets/e221d21e-0d5f-437e-9466-beb1a6f8618d)
 
 .1 Step - Go to [qb]/qb-core/client/function.lua
 
